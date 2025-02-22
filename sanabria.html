@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobilHome | Sanabria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/modals.css">
+    <style>
+        .hero {
+            background: url('/Sanabria/0.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Top Bar-->
+    <div class="top-bar"></div>
+
+    <!--Header-->
+    <header class="header">
+        <div class="logo-container">
+            <span class="logo-text">MOBIL<span class="highlight">HOME</span></span>
+        </div>
+        <div class="cta">
+            <div class="d-none d-md-block">
+                <a href="#info-contacto" style="text-decoration: none; color: black;">SOLICITAR PRESUPUESTO</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand d-md-none" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Mobilhome</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#info-footer">NOSOTROS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">CASAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#info-contacto">CONTACTO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>SANABRIA</h1>
+            <p style="text-shadow: 2px 2px 4px #000000;">Espacio, confort y versatilidad</p>
+            <a href="#info-section" class="btn btn-dark px-5 py-3"><i class="fas fa-angle-double-down"></i></a>
+        </div>
+    </div>
+
+    <!-- Sección de información -->
+    <div id="info-section" class="container my-5 p-3">
+        <div class="mx-auto p-2" style="width: 60%;">
+            <p style="font-size: 17px; color: #5D5C62;" class="text-center">
+                Si buscas un hogar móvil con amplitud y diseño inteligente, el <b>Mobilhome SANABRIA</b> es la
+                respuesta. Sus tres habitaciones y distribución optimizada lo convierten en una opción ideal para
+                familias o quienes necesitan más espacio.
+            </p>
+        </div>
+    </div>
+
+    <div class="mx-auto p-2 m-5" style="width: 100%; margin: 30px;">
+        <div style="background-color: rgb(247, 247, 247);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: rgb(255, 255, 255);">
+                        <i class="fas fa-ruler-combined fa-2x p-3"></i>
+                        <h5>Dimensiones</h5>
+                        <p>10,50 m de largo x 4,10 m de ancho</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-industry fa-2x p-3"></i>
+                        <h5>Estructura robusta en acero</h5>
+                        <p>Tratada contra la corrosión para mayor durabilidad</p>
+
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-temperature-high fa-2x p-3"></i>
+                        <h5>Aislamiento térmico premium</h5>
+                        <p class="text-wrap">Con paneles de poliuretano para un confort óptimo todo el año</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: rgb(255, 255, 255);">
+                        <i class="fas fa-door-closed fa-2x p-3"></i>
+                        <h5>Cerramientos en acero galvanizado</h5>
+                        <p>Garantizando resistencia y estanqueidad</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-hammer fa-2x p-3"></i>
+                        <h5>Carpintería de alta calidad</h5>
+                        <p>Combinando elegancia y funcionalidad</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-bolt fa-2x p-3"></i>
+                        <h5>Instalaciones completas de electricidad y fontanería</h5>
+                        <p>Listas para entrar a vivir</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-paint-roller fa-2x p-3"></i>
+                        <h5>Opciones de personalización</h5>
+                        <p>Con acabados y distribución adaptados a tu estilo de vida</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 text-center p-3 m-4" style="background-color: white;">
+                        <i class="fas fa-couch fa-2x p-3"></i>
+                        <h5>Disponible con mobiliario y electrodomésticos</h5>
+                        <p>Para que solo tengas que instalarte y disfrutar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 text-center mb-4">
+        <h2 style="color: #5D5C62;" class="mb-4">Fotografías del Modelo Sanabria</h2>
+        <div class="mx-auto p-2" style="width: 60%;">
+            <p style="font-size: 17px; color: #5D5C62;" class="text-center">
+                Más espacio, más posibilidades. El <b>Mobilhome SANABRIA</b> es la combinación perfecta entre comodidad,
+                diseño y versatilidad
+            </p>
+        </div>
+        <!-- Miniaturas en grid -->
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/1.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(1)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/2.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(2)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/3.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(3)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/4.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(4)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/0.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(0)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/1.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(1)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/5.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(5)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/6.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(6)">
+            </div>
+            <div class="col-md-3 col-6 thumbnail m-3">
+                <img src="Sanabria/7.jpg" class="img-fluid rounded shadow-sm" onclick="openModal(7)">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal personalizado -->
+    <div class="overlay" id="imageOverlay">
+        <button class="nav-arrow prev" onclick="prevImage()">&#10094;</button>
+        <img id="overlayImage" src="" alt="Imagen ampliada">
+        <button class="nav-arrow next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+
+    <div id="info-contacto" style="background-color: rgb(247, 247, 247); padding: 30px;">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-md-6">
+                    <h3 class="text-break text-center">Solicita más información y hazlo tuyo</h3>
+                    <h1 class="text-center mt-4"><i class="fa-solid fa-arrow-right"></i></h1>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <input type="email" class="w-100 mb-4 form-control" name="" placeholder="Correo">
+                        <textarea style="resize: none;" class="form-control mb-4" rows="3" placeholder="Mensaje"></textarea>
+                        <button class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="info-footer">
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 col-sm-12 p-2">
+                        <div class="logo-container">
+                            <span class="logo-text">MOBIL<span class="highlight">HOME</span></span>
+                        </div>
+                        <span class="text-secondary">Tu casa modular con la máxima calidad, sin sorpresas ni
+                            sobrecostes.</span>
+                    </div>
+                    <div class="col-md-6 col-xl-6 col-sm-12 p-2">
+                        <h5 class="pb-3"><i class="fa-solid fa-link pe-1"></i>Enlaces de Interés</h5>
+                        <ul>
+                            <li><a href="#info-section" class="text-decoration-none link-secondary">Caracteristicas</a>
+                            </li>
+                            <li><a href="index.html" class="text-decoration-none link-secondary">Mobilhome</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12"></div>
+                    <div class="col-md-6 col-sm-12"><span
+                            class="text-secondary pt-1 float-md-end float-sm-start">Copyright &copy; 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const images = ["Sanabria/0.jpg", "Sanabria/1.jpg", "Sanabria/2.jpg", "Sanabria/3.jpg", "Sanabria/4.jpg", "Sanabria/5.jpg", "Sanabria/6.jpg", "Sanabria/7.jpg"];
+        let currentIndex = 0;
+
+        function openModal(index) {
+            currentIndex = index;
+            console.log(currentIndex)
+            document.getElementById('overlayImage').src = images[currentIndex];
+            document.getElementById('imageOverlay').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('imageOverlay').classList.remove('active');
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            document.getElementById('overlayImage').src = images[currentIndex];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            document.getElementById('overlayImage').src = images[currentIndex];
+        }
+
+        // Cerrar modal al hacer clic en el fondo
+        document.getElementById('imageOverlay').addEventListener('click', function (e) {
+            if (e.target === this) closeModal();
+        });
+
+        // Teclas de navegación
+        document.addEventListener('keydown', function (event) {
+            if (document.getElementById('imageOverlay').classList.contains('active')) {
+                if (event.key === "ArrowLeft") prevImage();
+                if (event.key === "ArrowRight") nextImage();
+                if (event.key === "Escape") closeModal();
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

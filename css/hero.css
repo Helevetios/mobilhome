@@ -1,0 +1,14 @@
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+*{
+    font-family: Helvetica
+}
