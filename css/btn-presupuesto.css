@@ -1,0 +1,11 @@
+#btn-presupuesto {
+    text-decoration: none;
+    background-color: #252424;
+    padding: 10px;
+    color: white;
+}
+
+#btn-presupuesto:hover {
+    background-color: #5D5C62;
+    color: white;
+}
